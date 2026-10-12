@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Presenter;
+namespace Klaara\Admin\Grid\Filter\Presenter;
 
-use Encore\Admin\Facades\Admin;
+use Klaara\Admin\Facades\Admin;
 
 class MultipleSelect extends Select
 {

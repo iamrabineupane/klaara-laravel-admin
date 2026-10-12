@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Selectable;
+namespace Klaara\Admin\Grid\Selectable;
 
-use Encore\Admin\Grid\Displayers\AbstractDisplayer;
+use Klaara\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Checkbox extends AbstractDisplayer
 {

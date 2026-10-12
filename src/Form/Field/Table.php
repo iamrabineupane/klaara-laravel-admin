@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Klaara\Admin\Form\Field;
 
-use Encore\Admin\Form\NestedForm;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Klaara\Admin\Form\NestedForm;
+use Klaara\Admin\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

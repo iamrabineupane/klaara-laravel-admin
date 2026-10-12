@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Klaara\Admin\Actions;
 
-use Encore\Admin\Grid;
+use Klaara\Admin\Grid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\Request;
 

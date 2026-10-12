@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Klaara\Admin\Grid\Tools;
 
-use Encore\Admin\Grid;
+use Klaara\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 abstract class BatchAction implements Renderable

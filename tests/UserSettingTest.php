@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
+use Klaara\Admin\Auth\Database\Administrator;
 use Illuminate\Support\Facades\File;
 
 class UserSettingTest extends TestCase
@@ -63,7 +63,7 @@ class UserSettingTest extends TestCase
         $this->visit('admin/auth/setting')
             ->submitForm('Submit', $data)
             ->seePageIs('admin/auth/setting')
-            ->see('The Password confirmation does not match.');
+            ->see('The password field confirmation does not match.');
     }
 
     public function testUpdatePassword()

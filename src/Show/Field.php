@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Klaara\Admin\Show;
 
-use Encore\Admin\Show;
-use Encore\Admin\Widgets\Carousel;
+use Klaara\Admin\Show;
+use Klaara\Admin\Widgets\Carousel;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

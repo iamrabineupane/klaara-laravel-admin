@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Klaara\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Tools;
+use Klaara\Admin\Grid\Column;
+use Klaara\Admin\Grid\Model;
+use Klaara\Admin\Grid\Tools;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
@@ -54,7 +54,7 @@ trait HasQuickSearch
      */
     protected function applyQuickSearch()
     {
-        if (!$query = request()->get(static::$searchKey)) {
+        if (!$query = request()->input(static::$searchKey)) {
             return;
         }
 

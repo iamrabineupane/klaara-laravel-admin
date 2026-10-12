@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Klaara\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 use Illuminate\Support\Collection;
 
 class BatchActions extends AbstractTool

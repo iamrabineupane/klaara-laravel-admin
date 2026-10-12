@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Klaara\Admin\Grid;
 
-use Encore\Admin\Grid\Filter\AbstractFilter;
-use Encore\Admin\Grid\Filter\Layout\Layout;
-use Encore\Admin\Grid\Filter\Scope;
+use Klaara\Admin\Grid\Filter\AbstractFilter;
+use Klaara\Admin\Grid\Filter\Layout\Layout;
+use Klaara\Admin\Grid\Filter\Scope;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

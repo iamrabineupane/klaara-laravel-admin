@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Layout;
+namespace Klaara\Admin\Grid\Filter\Layout;
 
-use Encore\Admin\Grid\Filter\AbstractFilter;
+use Klaara\Admin\Grid\Filter\AbstractFilter;
 use Illuminate\Support\Collection;
 
 class Column

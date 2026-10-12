@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Klaara\Admin\Layout;
 
 interface Buildable
 {

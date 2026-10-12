@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Klaara\Admin\Grid;
 
-use Encore\Admin\Actions\GridAction;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\AbstractTool;
-use Encore\Admin\Grid\Tools\BatchActions;
-use Encore\Admin\Grid\Tools\FilterButton;
+use Klaara\Admin\Actions\GridAction;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Grid\Tools\AbstractTool;
+use Klaara\Admin\Grid\Tools\BatchActions;
+use Klaara\Admin\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

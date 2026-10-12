@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Klaara\Admin\Traits;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Tree;
+use Klaara\Admin\Form;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Tree;
 
 /**
  * @deprecated
@@ -36,7 +36,7 @@ trait AdminBuilder
      *
      * @return Tree
      */
-    public static function tree(\Closure $callback = null)
+    public static function tree(?\Closure $callback = null)
     {
         return new Tree(new static(), $callback);
     }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Auth\Database;
+namespace Klaara\Admin\Auth\Database;
 
-use Encore\Admin\Traits\DefaultDatetimeFormat;
-use Encore\Admin\Traits\ModelTree;
+use Klaara\Admin\Traits\DefaultDatetimeFormat;
+use Klaara\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\DB;

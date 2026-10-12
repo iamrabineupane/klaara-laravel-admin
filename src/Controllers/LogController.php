@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Klaara\Admin\Controllers;
 
-use Encore\Admin\Auth\Database\OperationLog;
-use Encore\Admin\Grid;
+use Klaara\Admin\Auth\Database\OperationLog;
+use Klaara\Admin\Grid;
 use Illuminate\Support\Arr;
 
 class LogController extends AdminController

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin;
+namespace Klaara\Admin;
 
 use Closure;
-use Encore\Admin\Tree\Tools;
+use Klaara\Admin\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 
@@ -81,7 +81,7 @@ class Tree implements Renderable
      *
      * @param Model|null $model
      */
-    public function __construct(Model $model = null, \Closure $callback = null)
+    public function __construct(?Model $model = null, ?\Closure $callback = null)
     {
         $this->model = $model;
 

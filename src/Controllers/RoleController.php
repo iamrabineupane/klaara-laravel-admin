@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Klaara\Admin\Controllers;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Show;
+use Klaara\Admin\Form;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Show;
 
 class RoleController extends AdminController
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Auth;
+namespace Klaara\Admin\Auth;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Middleware\Pjax;
+use Klaara\Admin\Facades\Admin;
+use Klaara\Admin\Middleware\Pjax;
 
 class Permission
 {

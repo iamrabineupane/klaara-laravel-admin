@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Klaara\Admin\Actions;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

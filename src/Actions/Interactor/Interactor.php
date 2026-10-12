@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Klaara\Admin\Actions\Interactor;
 
-use Encore\Admin\Actions\Action;
+use Klaara\Admin\Actions\Action;
 
 abstract class Interactor
 {

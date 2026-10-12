@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Klaara\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Selectable\Checkbox;
-use Encore\Admin\Grid\Selectable\Radio;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Grid\Selectable\Checkbox;
+use Klaara\Admin\Grid\Selectable\Radio;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

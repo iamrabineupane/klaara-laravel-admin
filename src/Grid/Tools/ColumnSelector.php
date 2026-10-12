@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Klaara\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Grid;
 use Illuminate\Support\Collection;
 
 class ColumnSelector extends AbstractTool

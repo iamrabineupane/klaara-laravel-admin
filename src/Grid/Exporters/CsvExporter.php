@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Klaara\Admin\Grid\Exporters;
 
-use Encore\Admin\Grid\Column;
+use Klaara\Admin\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

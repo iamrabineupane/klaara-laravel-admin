@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Klaara\Admin\Form\Field;
 
-use Encore\Admin\Form\Field;
+use Klaara\Admin\Form\Field;
 
 class DateRange extends Field
 {

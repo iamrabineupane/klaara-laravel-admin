@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Klaara\Admin\Form\Field;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 

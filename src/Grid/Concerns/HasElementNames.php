@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Klaara\Admin\Grid\Concerns;
 
 trait HasElementNames
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Klaara\Admin\Controllers;
 
-use Encore\Admin\Actions\Action;
-use Encore\Admin\Actions\GridAction;
-use Encore\Admin\Actions\Response;
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Widgets\Form;
+use Klaara\Admin\Actions\Action;
+use Klaara\Admin\Actions\GridAction;
+use Klaara\Admin\Actions\Response;
+use Klaara\Admin\Actions\RowAction;
+use Klaara\Admin\Widgets\Form;
 use Exception;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -45,7 +45,7 @@ class HandleController extends Controller
             throw new Exception('Invalid form request.');
         }
 
-        $formClass = $request->get('_form_');
+        $formClass = $request->input('_form_');
 
         if (!class_exists($formClass)) {
             throw new Exception("Form [{$formClass}] does not exist.");
@@ -112,7 +112,7 @@ class HandleController extends Controller
             throw new Exception('Invalid action request.');
         }
 
-        $actionClass = str_replace('_', '\\', $request->get('_action'));
+        $actionClass = str_replace('_', '\\', $request->input('_action'));
 
         if (!class_exists($actionClass)) {
             throw new Exception("Form [{$actionClass}] does not exist.");
@@ -152,13 +152,13 @@ class HandleController extends Controller
      */
     public function handleSelectable(Request $request)
     {
-        $class = $request->get('selectable');
-        $args = $request->get('args', []);
+        $class = $request->input('selectable');
+        $args = $request->input('args', []);
 
         $class = str_replace('_', '\\', $class);
 
         if (class_exists($class)) {
-            /** @var \Encore\Admin\Grid\Selectable $selectable */
+            /** @var \Klaara\Admin\Grid\Selectable $selectable */
             $selectable = new $class(...array_values($args));
 
             return $selectable->render();
@@ -174,8 +174,8 @@ class HandleController extends Controller
      */
     public function handleRenderable(Request $request)
     {
-        $class = $request->get('renderable');
-        $key = $request->get('key');
+        $class = $request->input('renderable');
+        $key = $request->input('key');
 
         $class = str_replace('_', '\\', $class);
 

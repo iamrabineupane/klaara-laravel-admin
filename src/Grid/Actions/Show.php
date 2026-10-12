@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Actions;
+namespace Klaara\Admin\Grid\Actions;
 
-use Encore\Admin\Actions\RowAction;
+use Klaara\Admin\Actions\RowAction;
 
 class Show extends RowAction
 {

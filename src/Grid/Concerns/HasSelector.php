@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Klaara\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\Selector;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

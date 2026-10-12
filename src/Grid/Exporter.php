@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Klaara\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporters\CsvExporter;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

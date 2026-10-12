@@ -20,11 +20,11 @@
     <a href="https://styleci.io/repos/48796179">
         <img src="https://styleci.io/repos/48796179/shield" alt="StyleCI">
     </a>
-    <a href="https://packagist.org/packages/encore/laravel-admin">
-        <img src="https://img.shields.io/packagist/l/encore/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
+    <a href="https://packagist.org/packages/klaara/laravel-admin">
+        <img src="https://img.shields.io/packagist/l/klaara/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
     </a>
-    <a href="https://packagist.org/packages/encore/laravel-admin">
-        <img src="https://img.shields.io/packagist/dt/encore/laravel-admin.svg?style=flat-square" alt="Total Downloads">
+    <a href="https://packagist.org/packages/klaara/laravel-admin">
+        <img src="https://img.shields.io/packagist/dt/klaara/laravel-admin.svg?style=flat-square" alt="Total Downloads">
     </a>
     <a href="https://github.com/z-song/laravel-admin">
         <img src="https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg?style=flat-square" alt="Awesome Laravel">
@@ -51,25 +51,25 @@ Sponsor
 
 Requirements
 ------------
- - PHP >= 7.0.0
- - Laravel >= 5.5.0
+ - PHP >= 8.1
+ - Laravel 10 / 11 / 12
  - Fileinfo PHP Extension
 
 Installation
 ------------
 
-> This package requires PHP 7+ and Laravel 5.5, for old versions please refer to [1.4](https://laravel-admin.org/docs/v1.4/#/)
+> This package requires PHP 8.1+ and Laravel 10/11/12, for old versions please refer to [1.4](https://laravel-admin.org/docs/v1.4/#/)
 
 First, install laravel 5.5, and make sure that the database connection settings are correct.
 
 ```
-composer require encore/laravel-admin
+composer require klaara/laravel-admin
 ```
 
 Then run these commands to publish assets and config：
 
 ```
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Klaara\Admin\AdminServiceProvider"
 ```
 After run command you can find config file in `config/admin.php`, in this file you can change the install directory,db connection or table names.
 
@@ -86,7 +86,7 @@ The file `config/admin.php` contains an array of configurations, you can find th
 
 Right to left support
 ------------
-just go to this path `<YOUR_PROJECT_PATH>\vendor\encore\laravel-admin\src\Traits\HasAssets.php` and modify `$baseCss` array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
+just go to this path `<YOUR_PROJECT_PATH>\vendor\klaara\laravel-admin\src\Traits\HasAssets.php` and modify `$baseCss` array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
 **bootstrap.min.css** change it to **bootstrap.rtl.min.css**    
 **AdminLTE.min.css** change it to **AdminLTE.rtl.min.css**  
 

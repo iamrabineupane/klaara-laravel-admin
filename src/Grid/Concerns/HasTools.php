@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Klaara\Admin\Grid\Concerns;
 
 use Closure;
-use Encore\Admin\Grid\Tools;
+use Klaara\Admin\Grid\Tools;
 
 trait HasTools
 {

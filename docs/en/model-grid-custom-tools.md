@@ -9,8 +9,8 @@ First define the tool class `app/Admin/Extensions/Tools/UserGender.php`：
 
 namespace App\Admin\Extensions\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Tools\AbstractTool;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Grid\Tools\AbstractTool;
 use Illuminate\Support\Facades\Request;
 
 class UserGender extends AbstractTool
@@ -98,7 +98,7 @@ First define the tool class `app/Admin/Extensions/Tools/ReleasePost.php`：
 
 namespace App\Admin\Extensions\Tools;
 
-use Encore\Admin\Grid\Tools\BatchAction;
+use Klaara\Admin\Grid\Tools\BatchAction;
 
 class ReleasePost extends BatchAction
 {

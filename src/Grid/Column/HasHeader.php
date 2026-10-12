@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Klaara\Admin\Grid\Column;
 
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Model;
+use Klaara\Admin\Grid\Column;
+use Klaara\Admin\Grid\Model;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Klaara\Admin\Widgets;
 
 use Closure;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form as BaseForm;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Layout\Content;
+use Klaara\Admin\Facades\Admin;
+use Klaara\Admin\Form as BaseForm;
+use Klaara\Admin\Form\Field;
+use Klaara\Admin\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

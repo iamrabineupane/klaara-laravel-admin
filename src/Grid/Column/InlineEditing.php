@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Klaara\Admin\Grid\Column;
 
-use Encore\Admin\Grid\Displayers;
+use Klaara\Admin\Grid\Displayers;
 
 trait InlineEditing
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Klaara\Admin\Form;
 
-use Encore\Admin\Form;
+use Klaara\Admin\Form;
 use Illuminate\Support\Collection;
 
 class Tab

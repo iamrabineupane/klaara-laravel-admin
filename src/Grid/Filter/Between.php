@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Klaara\Admin\Grid\Filter;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class Between extends AbstractFilter

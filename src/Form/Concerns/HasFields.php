@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Concerns;
+namespace Klaara\Admin\Form\Concerns;
 
-use Encore\Admin\Form\Field;
+use Klaara\Admin\Form\Field;
 use Illuminate\Support\Arr;
 
 /**

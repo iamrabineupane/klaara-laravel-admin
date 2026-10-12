@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Klaara\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\Field\MultipleSelect;
-use Encore\Admin\Form\Field\Select;
-use Encore\Admin\Form\Field\Text;
-use Encore\Admin\Grid;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Form\Field;
+use Klaara\Admin\Form\Field\MultipleSelect;
+use Klaara\Admin\Form\Field\Select;
+use Klaara\Admin\Form\Field\Text;
+use Klaara\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

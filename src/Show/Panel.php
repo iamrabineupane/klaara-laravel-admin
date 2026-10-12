@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Klaara\Admin\Show;
 
-use Encore\Admin\Show;
+use Klaara\Admin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

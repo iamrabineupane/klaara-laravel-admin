@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Actions;
+namespace Klaara\Admin\Grid\Actions;
 
-use Encore\Admin\Actions\Response;
-use Encore\Admin\Actions\RowAction;
+use Klaara\Admin\Actions\Response;
+use Klaara\Admin\Actions\RowAction;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 

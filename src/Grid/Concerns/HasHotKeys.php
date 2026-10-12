@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Klaara\Admin\Grid\Concerns;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 
 trait HasHotKeys
 {

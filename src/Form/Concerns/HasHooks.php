@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Concerns;
+namespace Klaara\Admin\Form\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;

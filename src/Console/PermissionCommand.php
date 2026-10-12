@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Klaara\Admin\Console;
 
-use Encore\Admin\Auth\Database\Permission;
+use Klaara\Admin\Auth\Database\Permission;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

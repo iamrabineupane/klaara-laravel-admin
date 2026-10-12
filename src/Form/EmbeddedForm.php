@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Klaara\Admin\Form;
 
-use Encore\Admin\Form;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Klaara\Admin\Form;
+use Klaara\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

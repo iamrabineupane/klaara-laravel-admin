@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Klaara\Admin\Grid;
 
-use Encore\Admin\Grid;
+use Klaara\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

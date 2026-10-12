@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Klaara\Admin\Controllers;
 
-use Encore\Admin\Form;
-use Encore\Admin\Layout\Column;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Layout\Row;
-use Encore\Admin\Tree;
-use Encore\Admin\Widgets\Box;
+use Klaara\Admin\Form;
+use Klaara\Admin\Layout\Column;
+use Klaara\Admin\Layout\Content;
+use Klaara\Admin\Layout\Row;
+use Klaara\Admin\Tree;
+use Klaara\Admin\Widgets\Box;
 use Illuminate\Routing\Controller;
 
 class MenuController extends Controller
@@ -30,7 +30,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Encore\Admin\Widgets\Form();
+                    $form = new \Klaara\Admin\Widgets\Form();
                     $form->action(admin_url('auth/menu'));
 
                     $menuModel = config('admin.database.menu_model');
@@ -65,7 +65,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Encore\Admin\Tree
+     * @return \Klaara\Admin\Tree
      */
     protected function treeView()
     {

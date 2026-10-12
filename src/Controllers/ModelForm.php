@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Klaara\Admin\Controllers;
 
 /**
  * Trait ModelForm.

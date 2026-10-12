@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Klaara\Admin\Controllers;
 
-use Encore\Admin\Layout\Content;
+use Klaara\Admin\Layout\Content;
 use Illuminate\Routing\Controller;
 
 class AdminController extends Controller

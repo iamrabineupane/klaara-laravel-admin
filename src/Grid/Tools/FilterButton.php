@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Klaara\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 
 class FilterButton extends AbstractTool
 {

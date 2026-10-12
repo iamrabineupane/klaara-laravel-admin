@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Klaara\Admin\Grid\Filter;
 
 class Day extends Date
 {

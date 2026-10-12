@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
+use Klaara\Admin\Auth\Database\Administrator;
 
 class IndexTest extends TestCase
 {

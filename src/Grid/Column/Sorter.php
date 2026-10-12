@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Klaara\Admin\Grid\Column;
 
 use Illuminate\Contracts\Support\Renderable;
 
@@ -51,7 +51,7 @@ class Sorter implements Renderable
      */
     protected function isSorted()
     {
-        $this->sort = \request()->get($this->sortName);
+        $this->sort = \request()->input($this->sortName);
 
         if (empty($this->sort)) {
             return false;

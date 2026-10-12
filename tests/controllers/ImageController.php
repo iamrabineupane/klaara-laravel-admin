@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Encore\Admin\Controllers\AdminController;
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
+use Klaara\Admin\Controllers\AdminController;
+use Klaara\Admin\Form;
+use Klaara\Admin\Grid;
 use Tests\Models\Image;
 
 class ImageController extends AdminController

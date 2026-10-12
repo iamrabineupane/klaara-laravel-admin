@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
+use Klaara\Admin\Auth\Database\Administrator;
 use Illuminate\Support\Facades\File;
 use Tests\Models\Image;
 use Tests\Models\MultipleImage;
@@ -64,7 +64,11 @@ class ImageUploadTest extends TestCase
             $this->assertFileExists(public_path('uploads/'.$images['image'.$index]));
         }
 
-        $this->assertFileExists(public_path('uploads/images/asdasdasdasdasd.jpeg'));
+        // guessExtension() returns jpg or jpeg depending on the Symfony version
+        $this->assertTrue(
+            file_exists(public_path('uploads/images/asdasdasdasdasd.jpeg'))
+            || file_exists(public_path('uploads/images/asdasdasdasdasd.jpg'))
+        );
 
         File::cleanDirectory(public_path('uploads/images'));
     }

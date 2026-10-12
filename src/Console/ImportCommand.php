@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Klaara\Admin\Console;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 

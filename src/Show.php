@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin;
+namespace Klaara\Admin;
 
-use Encore\Admin\Show\Divider;
-use Encore\Admin\Show\Field;
-use Encore\Admin\Show\Panel;
-use Encore\Admin\Show\Relation;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Klaara\Admin\Show\Divider;
+use Klaara\Admin\Show\Field;
+use Klaara\Admin\Show\Panel;
+use Klaara\Admin\Show\Relation;
+use Klaara\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

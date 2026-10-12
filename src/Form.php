@@ -1,18 +1,18 @@
 <?php
 
-namespace Encore\Admin;
+namespace Klaara\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Form\Builder;
-use Encore\Admin\Form\Concerns\HandleCascadeFields;
-use Encore\Admin\Form\Concerns\HasFields;
-use Encore\Admin\Form\Concerns\HasHooks;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\Layout\Layout;
-use Encore\Admin\Form\Row;
-use Encore\Admin\Form\Tab;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Klaara\Admin\Exception\Handler;
+use Klaara\Admin\Form\Builder;
+use Klaara\Admin\Form\Concerns\HandleCascadeFields;
+use Klaara\Admin\Form\Concerns\HasFields;
+use Klaara\Admin\Form\Concerns\HasHooks;
+use Klaara\Admin\Form\Field;
+use Klaara\Admin\Form\Layout\Layout;
+use Klaara\Admin\Form\Row;
+use Klaara\Admin\Form\Tab;
+use Klaara\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -1421,7 +1421,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Encore\Admin\Form\Footer
+     * @return \Klaara\Admin\Form\Footer
      */
     public function footer(?Closure $callback = null)
     {

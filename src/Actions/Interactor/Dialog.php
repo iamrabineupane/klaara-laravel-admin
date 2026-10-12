@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Klaara\Admin\Actions\Interactor;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 
 class Dialog extends Interactor
 {

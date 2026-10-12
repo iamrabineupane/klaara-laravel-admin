@@ -21,12 +21,14 @@ class TestCase extends BaseTestCase
 
         $app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Admin', \Encore\Admin\Facades\Admin::class);
+            $loader->alias('Admin', \Klaara\Admin\Facades\Admin::class);
         });
 
         $app->make('Illuminate\Contracts\Console\Kernel')->bootstrap();
 
-        $app->register('Encore\Admin\AdminServiceProvider');
+        $app->register(\Illuminate\Database\Eloquent\LegacyFactoryServiceProvider::class);
+
+        $app->register('Klaara\Admin\AdminServiceProvider');
 
         return $app;
     }
@@ -35,7 +37,7 @@ class TestCase extends BaseTestCase
     {
         parent::setUp();
 
-        $adminConfig = require __DIR__.'/config/admin.php';
+        $adminConfig = array_replace_recursive(require __DIR__.'/../config/admin.php', require __DIR__.'/config/admin.php');
 
         $this->app['config']->set('database.default', env('DB_CONNECTION', 'mysql'));
         $this->app['config']->set('database.connections.mysql.host', env('MYSQL_HOST', 'localhost'));
@@ -50,7 +52,7 @@ class TestCase extends BaseTestCase
             $this->app['config']->set($key, $value);
         }
 
-        $this->artisan('vendor:publish', ['--provider' => 'Encore\Admin\AdminServiceProvider']);
+        $this->artisan('vendor:publish', ['--provider' => 'Klaara\Admin\AdminServiceProvider']);
 
         Schema::defaultStringLength(191);
 
@@ -66,9 +68,9 @@ class TestCase extends BaseTestCase
 
         require __DIR__.'/seeds/factory.php';
 
-//        \Encore\Admin\Admin::$css = [];
-//        \Encore\Admin\Admin::$js = [];
-//        \Encore\Admin\Admin::$script = [];
+//        \Klaara\Admin\Admin::$css = [];
+//        \Klaara\Admin\Admin::$js = [];
+//        \Klaara\Admin\Admin::$script = [];
     }
 
     protected function tearDown(): void

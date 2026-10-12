@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Widgets\Navbar;
+namespace Klaara\Admin\Widgets\Navbar;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

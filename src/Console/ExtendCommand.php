@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Klaara\Admin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -57,7 +57,7 @@ class ExtendCommand extends Command
      */
     protected $dirs = [
         'database/migrations',
-        'database/seeds',
+        'database/seeders',
         'resources/assets',
         'resources/views',
         'src/Http/Controllers',
@@ -111,7 +111,7 @@ class ExtendCommand extends Command
     ├── composer.json
     ├── database
     │   ├── migrations
-    │   └── seeds
+    │   └── seeders
     ├── resources
     │   ├── assets
     │   └── views

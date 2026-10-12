@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Klaara\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Form;
 use Illuminate\Support\Arr;
 
 /**

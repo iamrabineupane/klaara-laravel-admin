@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Klaara\Admin\Grid\Displayers;
 
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Actions\Delete;
-use Encore\Admin\Grid\Actions\Edit;
-use Encore\Admin\Grid\Actions\Show;
+use Klaara\Admin\Actions\RowAction;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Grid\Actions\Delete;
+use Klaara\Admin\Grid\Actions\Edit;
+use Klaara\Admin\Grid\Actions\Show;
 
 class DropdownActions extends Actions
 {

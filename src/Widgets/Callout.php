@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Klaara\Admin\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 

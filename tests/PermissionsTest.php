@@ -1,8 +1,8 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Auth\Database\Permission;
-use Encore\Admin\Auth\Database\Role;
+use Klaara\Admin\Auth\Database\Administrator;
+use Klaara\Admin\Auth\Database\Permission;
+use Klaara\Admin\Auth\Database\Role;
 
 class PermissionsTest extends TestCase
 {

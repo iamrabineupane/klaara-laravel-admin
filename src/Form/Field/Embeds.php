@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Klaara\Admin\Form\Field;
 
-use Encore\Admin\Form\EmbeddedForm;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Klaara\Admin\Form\EmbeddedForm;
+use Klaara\Admin\Form\Field;
+use Klaara\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 

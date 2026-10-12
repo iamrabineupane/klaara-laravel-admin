@@ -1,15 +1,15 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Klaara\Admin\Grid\Filter;
 
-use Encore\Admin\Grid\Filter;
-use Encore\Admin\Grid\Filter\Presenter\Checkbox;
-use Encore\Admin\Grid\Filter\Presenter\DateTime;
-use Encore\Admin\Grid\Filter\Presenter\MultipleSelect;
-use Encore\Admin\Grid\Filter\Presenter\Presenter;
-use Encore\Admin\Grid\Filter\Presenter\Radio;
-use Encore\Admin\Grid\Filter\Presenter\Select;
-use Encore\Admin\Grid\Filter\Presenter\Text;
+use Klaara\Admin\Grid\Filter;
+use Klaara\Admin\Grid\Filter\Presenter\Checkbox;
+use Klaara\Admin\Grid\Filter\Presenter\DateTime;
+use Klaara\Admin\Grid\Filter\Presenter\MultipleSelect;
+use Klaara\Admin\Grid\Filter\Presenter\Presenter;
+use Klaara\Admin\Grid\Filter\Presenter\Radio;
+use Klaara\Admin\Grid\Filter\Presenter\Select;
+use Klaara\Admin\Grid\Filter\Presenter\Text;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

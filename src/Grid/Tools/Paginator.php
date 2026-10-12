@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Klaara\Admin\Grid\Tools;
 
-use Encore\Admin\Grid;
+use Klaara\Admin\Grid;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class Paginator extends AbstractTool

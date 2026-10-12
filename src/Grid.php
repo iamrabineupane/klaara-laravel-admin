@@ -1,16 +1,16 @@
 <?php
 
-namespace Encore\Admin;
+namespace Klaara\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Concerns;
-use Encore\Admin\Grid\Displayers;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Row;
-use Encore\Admin\Grid\Tools;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Klaara\Admin\Exception\Handler;
+use Klaara\Admin\Grid\Column;
+use Klaara\Admin\Grid\Concerns;
+use Klaara\Admin\Grid\Displayers;
+use Klaara\Admin\Grid\Model;
+use Klaara\Admin\Grid\Row;
+use Klaara\Admin\Grid\Tools;
+use Klaara\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Encore\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Klaara\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Klaara\Admin\Actions;
 
-use Encore\Admin\Grid\Column;
+use Klaara\Admin\Grid\Column;
 use Illuminate\Http\Request;
 
 abstract class RowAction extends GridAction
@@ -110,11 +110,11 @@ abstract class RowAction extends GridAction
      */
     public function retrieveModel(Request $request)
     {
-        if (!$key = $request->get('_key')) {
+        if (!$key = $request->input('_key')) {
             return false;
         }
 
-        $modelClass = str_replace('_', '\\', $request->get('_model'));
+        $modelClass = str_replace('_', '\\', $request->input('_model'));
 
         if ($this->modelUseSoftDeletes($modelClass)) {
             return $modelClass::withTrashed()->findOrFail($key);

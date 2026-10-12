@@ -1,7 +1,7 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Auth\Database\Menu;
+use Klaara\Admin\Auth\Database\Administrator;
+use Klaara\Admin\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

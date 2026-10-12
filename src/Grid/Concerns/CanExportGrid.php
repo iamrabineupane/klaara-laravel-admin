@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Klaara\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporter;
-use Encore\Admin\Grid\Exporters\AbstractExporter;
+use Klaara\Admin\Grid;
+use Klaara\Admin\Grid\Exporter;
+use Klaara\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Klaara\Admin\Grid\Column;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Model;
+use Klaara\Admin\Admin;
+use Klaara\Admin\Grid\Model;
 
 class RangeFilter extends Filter
 {

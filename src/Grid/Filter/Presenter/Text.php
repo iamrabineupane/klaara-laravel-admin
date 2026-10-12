@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Presenter;
+namespace Klaara\Admin\Grid\Filter\Presenter;
 
-use Encore\Admin\Admin;
+use Klaara\Admin\Admin;
 
 class Text extends Presenter
 {
