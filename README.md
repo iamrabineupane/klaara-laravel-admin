@@ -14,28 +14,22 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/z-song/laravel-admin">
-        <img src="https://travis-ci.org/z-song/laravel-admin.svg?branch=master" alt="Build Status">
-    </a>
-    <a href="https://styleci.io/repos/48796179">
-        <img src="https://styleci.io/repos/48796179/shield" alt="StyleCI">
-    </a>
     <a href="https://packagist.org/packages/klaara/laravel-admin">
         <img src="https://img.shields.io/packagist/l/klaara/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
     </a>
     <a href="https://packagist.org/packages/klaara/laravel-admin">
         <img src="https://img.shields.io/packagist/dt/klaara/laravel-admin.svg?style=flat-square" alt="Total Downloads">
     </a>
-    <a href="https://github.com/z-song/laravel-admin">
+    <a href="https://github.com/iamrabineupane/klaara-laravel-admin">
         <img src="https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg?style=flat-square" alt="Awesome Laravel">
     </a>
-    <a href="#backers" alt="sponsors on Open Collective">
-        <img src="https://opencollective.com/laravel-admin/backers/badge.svg?style=flat-square" />
-    </a> 
-    <a href="https://www.paypal.me/zousong" alt="Paypal donate">
-        <img src="https://img.shields.io/badge/Donate-Paypal-green.svg?style=flat-square" />
-    </a> 
-</div>
+</p>
+
+<p align="center">
+    Maintained fork of <a href="https://github.com/z-song/laravel-admin">z-song/laravel-admin</a> for Laravel 10/11/12.
+    Repository: <a href="https://github.com/iamrabineupane/klaara-laravel-admin">iamrabineupane/klaara-laravel-admin</a> |
+    <a href="FORK.md">What changed in this fork</a>
+</p>
 
 <p align="center">
     Inspired by <a href="https://github.com/sleeping-owl/admin" target="_blank">SleepingOwlAdmin</a> and <a href="https://github.com/zofe/rapyd-laravel" target="_blank">rapyd-laravel</a>.
