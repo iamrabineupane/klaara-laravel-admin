@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-    Maintained fork of <a href="https://github.com/z-song/laravel-admin">z-song/laravel-admin</a> for Laravel 10/11/12.
+    Maintained fork of <a href="https://github.com/z-song/laravel-admin">z-song/laravel-admin</a> for Laravel 10/11/12/13.
     Repository: <a href="https://github.com/iamrabineupane/klaara-laravel-admin">iamrabineupane/klaara-laravel-admin</a> |
     <a href="FORK.md">What changed in this fork</a>
 </p>
@@ -45,14 +45,14 @@ Sponsor
 
 Requirements
 ------------
- - PHP >= 8.1
- - Laravel 10 / 11 / 12
+ - PHP >= 8.3
+ - Laravel 10 / 11 / 12 / 13
  - Fileinfo PHP Extension
 
 Installation
 ------------
 
-> This package requires PHP 8.1+ and Laravel 10/11/12, for old versions please refer to [1.4](https://laravel-admin.org/docs/v1.4/#/)
+> This package requires PHP 8.3+ and Laravel 10/11/12/13, for old versions please refer to [1.4](https://laravel-admin.org/docs/v1.4/#/)
 
 First, install laravel 5.5, and make sure that the database connection settings are correct.
 

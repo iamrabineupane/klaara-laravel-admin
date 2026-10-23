@@ -6,7 +6,7 @@ The features, views, config key (`admin`), route names, artisan commands (`admin
 What changed compared with upstream 1.8.x:
 
 - package `klaara/laravel-admin`, namespace `Klaara\Admin`;
-- supports Laravel 10, 11 and 12 on PHP 8.1 and newer;
+- supports Laravel 10, 11, 12 and 13 on PHP 8.3 and newer;
 - `doctrine/dbal` is no longer required (`admin:make` reads the columns with `Schema::getColumns()`; Doctrine is only used as a fallback on Laravel versions that have no such method);
 - `symfony/dom-crawler` constraint widened to `^6.0|^7.0`;
 - implicitly nullable parameters (`Closure $x = null`) are now explicitly nullable (PHP 8.4+);
